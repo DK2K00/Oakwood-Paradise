@@ -1,0 +1,48 @@
+*Applying font for entire body*/ body {
+  font-family: "Roboto", sans-serif;
+}
+
+/*Navbar background color*/
+.bg {
+  background-color: #cb997e;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 5rem;
+}
+
+/*Custom underline for headers*/
+.heading_line {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 170px;
+  height: 1px;
+  background-color: #cb997e;
+}
+
+/*Custom horizontal rule*/
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 1),
+    rgba(0, 0, 0, 0),
+    rgba(255, 255, 255, 1)
+  );
+}
+
+/*Custom heading*/
+h4 {
+  padding-top: 1rem;
+  text-align: justify;
+}
+
+/*Footer alignment*/
+#reserved {
+  text-align: center;
+  margin: 0 45%;
+}
