@@ -1,0 +1,17 @@
+/*Custom image sizing and position*/
+img {
+  margin: 0 20%;
+  padding-top: 1rem;
+}
+
+/*Header alignment*/
+h2 {
+  padding-top: 2rem;
+}
+
+/*Paragraph alignment*/
+p {
+  text-align: justify;
+  width: 60%;
+  margin: 0 20%;
+}

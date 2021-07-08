@@ -4,44 +4,139 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About</title>
+    <title>Home</title>
+    <!--Bootstrap link-->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="stylesheets/common.css" />
+    <link rel="stylesheet" href="stylesheets/about.css" />
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="images/logo.png" width="60"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
+    <!--Navbar with links to other pages-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg">
+      <div class="container-fluid">
+        <!--Logo-->
+        <a class="navbar-brand" href="index.html"
+          ><img src="images/logo.png" width="40"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <!--About page-->
+            <li class="nav-item">
+              <a class="nav-link active" href="about.html">About</a>
+            </li>
+            <!--Dropdown containing different categories of furniture-->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Categories
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Tables</a></li>
+                <li><a class="dropdown-item" href="#">Chairs</a></li>
+                <li><a class="dropdown-item" href="#">Sofas</a></li>
+                <li><a class="dropdown-item" href="#">Cots</a></li>
+                <li><a class="dropdown-item" href="#">Shelves</a></li>
+              </ul>
+            </li>
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
+
+    <!--History section of furniture shop-->
+    <h2>History</h2>
+    <div class="heading_line"></div>
+    <div class="container">
+      <img src="images/about/history.jpg" alt="History of Shop" width="800" />
+      <br /><br />
+      <p>
+        The Oakwood Paradise Company was founded in Pondicherry in 1909 during
+        the British era by Sir Eugene Ludacrew. It is located in the famous
+        White Town. It was started as a small furniture store with a
+        working-force of only 8 which sold only tables and chairs hand-crafted
+        in shop. The Oakwood-Paradise Company specialized in a style of crafting
+        that was unique to Pondicherry. Business in the early days was excellent
+        with many people around the world wanting to buy the unique style of
+        furniture hand-crafted by the shop. It also attracted the eyes of the
+        Administration of the East India Company and exported many pieces of
+        furniture back to England. These pieces found their home in Palaces and
+        Parliaments around the world.
+      </p>
+    </div>
+
+    <!--Mordern Era-->
+    <h2>Mordern Era</h2>
+    <div class="heading_line"></div>
+    <div class="container">
+      <img src="images/about/current.jpg" alt="Current shop" width="800" />
+      <p style="padding: 1rem 0">
+        The Oakwood Paradise Company has transformed into a multi-storey
+        furniture complex. It crafts all kinds of furniture suitable for any
+        locaiton. Most of the furniture pieces are done using machines. However
+        a custom designs are also done based on customer preferences. Different
+        kinds of services are also available.
+      </p>
+    </div>
+
+    <!--Location-->
+    <h2>Location</h2>
+    <div class="heading_line"></div>
+    <div class="container" style="padding: 1rem 0">
+      <div class="row">
+        <div class="col-4">
+          <p>
+            Oakwood Paradise<br />83-Mission Street,<br />Pondicherry-605001<br />Phone
+            No: 0123456789
+          </p>
+        </div>
+        <div class="col-4">
+          <img
+            src="images/about/street.jpg"
+            alt="Street picture"
+            width="600"
+            id="street"
+          />
+        </div>
+      </div>
+    </div>
+    <!--Footer-->
+    <nav class="navbar navbar-dark bg">
+      <p id="reserved">&#174;All Rights Reserved</p>
+    </nav>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
