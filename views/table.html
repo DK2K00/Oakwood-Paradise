@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tables</title>
+    <!--Bootstrap link-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="../stylesheets/common.css" />
+    <link rel="stylesheet" href="../stylesheets/table.css" />
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--Navbar with links to other pages-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg">
+      <div class="container-fluid">
+        <!--Logo-->
+        <a class="navbar-brand" href="../index.html"
+          ><img src="../images/logo.png" width="40"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../index.html"
+                >Home</a
+              >
+            </li>
+            <!--About page-->
+            <li class="nav-item">
+              <a class="nav-link" href="../about.html">About</a>
+            </li>
+            <!--Dropdown containing different categories of furniture-->
+            <li class="nav-item dropdown active">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Categories
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="table.html">Tables</a>
+                </li>
+                <li><a class="dropdown-item" href="chair.html">Chairs</a></li>
+                <li><a class="dropdown-item" href="sofa.html">Sofas</a></li>
+                <li><a class="dropdown-item" href="cot.html">Cots</a></li>
+                <li><a class="dropdown-item" href="shelf.html">Shelves</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Table categories-->
+    <h2>Tables</h2>
+    <div class="heading_line"></div>
+    <div class="container">
+      <!--Row 1-->
+      <div class="row">
+        <div class="col-4">
+          <div class="card" style="width: 18rem">
+            <img
+              src="../images/tables/table1.jpg"
+              class="card-img-top size"
+              alt="table 1"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                A mini tea table made of ply wood. Available in black or white.
+              </p>
+              <p class="price">&#8377; 1,999</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-4">
+          <div class="card" style="width: 18rem">
+            <img
+              src="../images/tables/table2.jpg"
+              class="card-img-top size"
+              alt="table 2"
+            />
+            <div class="card-body">
+              <p class="card-text">Standard tea table made from oakwood.</p>
+              <p class="price">&#8377; 2,499</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-4">
+          <div class="card" style="width: 18rem">
+            <img
+              src="../images/tables/table3.jpg"
+              class="card-img-top size"
+              alt="table 3"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Dining set with 6 chairs made from teak wood. Available in white
+                or black.
+              </p>
+              <p class="price">&#8377; 4,999</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Row 2-->
+      <div class="row">
+        <div class="col-4">
+          <div class="card" style="width: 18rem">
+            <img
+              src="../images/tables/table4.jpg"
+              class="card-img-top size"
+              alt="table 4"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Dining set with 8 chairs made from quality oak wood.
+              </p>
+              <p class="price">&#8377; 7,999</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-4">
+          <div class="card" style="width: 18rem">
+            <img
+              src="../images/tables/table5.jpg"
+              class="card-img-top size"
+              alt="table 5"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Persian dining set made from teak wood. Comes with 6 chairs.
+                Available only in black.
+              </p>
+              <p class="price">&#8377; 6,999</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-4">
+          <div class="card" style="width: 18rem">
+            <img
+              src="../images/tables/table6.jpg"
+              class="card-img-top size"
+              alt="table 6"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Italian style dining set with 8 chairs. Made from teak wood.
+                Availalbe in white or pink.
+              </p>
+              <p class="price">&#8377; 3,499</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Row 3-->
+      <div class="row">
+        <div class="col-4">
+          <div class="card" style="width: 18rem">
+            <img
+              src="../images/tables/table7.jpg"
+              class="card-img-top size"
+              alt="table 7"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Mini dining set with a small ply wood table consisting of 4
+                chairs. Available in white, balck and blue.
+              </p>
+              <p class="price">&#8377; 2,999</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-4">
+          <div class="card" style="width: 18rem">
+            <img
+              src="../images/tables/table8.jpeg"
+              class="card-img-top size"
+              alt="table 8"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Dining set with 8 chairs made from quality oak wood.
+              </p>
+              <p class="price">&#8377; 3,999</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-4">
+          <div class="card" style="width: 18rem">
+            <img
+              src="../images/tables/table9.jpg"
+              class="card-img-top size"
+              alt="table 9"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Dining set - Contrast edition. Comes with 6 chairs.
+              </p>
+              <p class="price">&#8377; 3,499</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Footer bar-->
+    <nav class="navbar navbar-dark bg">
+      <p id="reserved">&#174;All Rights Reserved</p>
+    </nav>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
